@@ -20,14 +20,14 @@ import {
 } from "lucide-react";
 import { ChatBot } from "@/components/ChatBot";
 import { useToast } from "@/hooks/use-toast";
-import proImage from '../assets/1748257140914.jpg';
+import proImage from "../assets/1748257140914.jpg";
 
 const Profile = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [showChatBot, setShowChatBot] = useState(false);
   const [profile, setProfile] = useState({
-    name: "John Doe",
-    email: "john.doe@example.com",
+    name: "Ahmed Ahmed",
+    email: "ahmed.mohsen@example.com",
   });
   const [passwords, setPasswords] = useState({
     current: "",
